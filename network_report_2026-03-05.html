@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Report 2026-03-05</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #1a1a2e;
+            background: #f8f9fa;
+            line-height: 1.6;
+        }
+        h1, h2, h3 { color: #16213e; }
+        h1 { border-bottom: 2px solid #16213e; padding-bottom: 10px; }
+        table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+        th, td { border: 1px solid #ccc; padding: 6px 10px; text-align: left; }
+        th { background: #eef1f5; }
+        pre { background: #eef1f5; padding: 12px; overflow-x: auto; border-radius: 4px; }
+        code { background: #eef1f5; padding: 2px 4px; border-radius: 3px; font-size: 0.9em; }
+        pre code { background: none; padding: 0; }
+        a { color: #0f3460; }
+        .nav { margin-bottom: 20px; font-size: 0.9em; }
+        .nav a { color: #0f3460; text-decoration: none; }
+        .nav a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="nav"><a href="index.html">&larr; All Reports</a></div>
+    <h1>THE HOONET DAILY MESH GAZETTE</h1>
+<p><em>Thursday, March 5, 2026</em><br />
+<strong>All the packets that's fit to transmit</strong></p>
+<hr />
+<h2>📰 <strong>HEADLINES</strong></h2>
+<ul>
+<li><strong>Traffic Surge! HOONET Hits 460-Packet Peak During Midnight Rush</strong></li>
+<li><strong>Signal Conditions Mixed: From Bone-Chilling RSSI to Strong Base Station Clarity</strong></li>
+<li><strong>Network Grows by 28 Nodes Amidst a Brief but Notable 7-Hour Listener Glitch</strong></li>
+<li><strong>CheeseFish Stick Hits 48 km/h; Mobile Nodes Keep HOONET Moving</strong></li>
+</ul>
+<hr />
+<h2>🚨 <strong>FRONT PAGE: EXECUTIVE SUMMARY</strong></h2>
+<p>Welcome back, mesh mavens! Today’s edition of The HOONET Daily Mesh Gazette brings you a tale of steady growth, surging traffic, and the occasional hiccup from our own hardware. Despite our beloved listening station experiencing a <strong>7-hour freeze-out</strong> thanks to a misbehaving Heltec V3, the <strong>HOONET mesh network kept humming along</strong> with 331 total nodes, 58 active in the last hour, and over <strong>3,700 packets</strong> crisscrossing New Hampshire in the last 24 hours.</p>
+<p>Things got particularly spicy around <strong>0200 hours</strong>, when packet traffic hit a <strong>460-packet peak</strong>, likely driven by automated telemetry and position updates. Meanwhile, mobile nodes like <strong>CheeseFish Stick</strong> and <strong>MahtRak [RAK4631]</strong> logged impressive distances and speeds, reinforcing the mesh’s reach beyond fixed installations.</p>
+<p>Signal conditions were a mixed bag—average RSSI at <strong>-107 dBm</strong>, with some nodes showing serious fade, while our own <strong>HOONET-1 and HOONET-2</strong> held strong. Infrastructure remains healthy, with solar-powered nodes reporting a wide range of battery levels—and one, ominously, at <strong>0%</strong>.</p>
+<p>So, grab your coffee, check your battery bars, and dive into today’s mesh madness.</p>
+<hr />
+<h2>📊 <strong>TRAFFIC REPORT</strong></h2>
+<p>Let’s talk packet highways. In the last 24 hours, HOONET saw <strong>3,716 total packets</strong>, averaging about <strong>155 per hour</strong>—not bad for a mesh network humming quietly in the Granite State. But the real story is in the peaks and valleys.</p>
+<p>The <strong>biggest traffic spike</strong> hit at <strong>02:00 AM</strong>, when <strong>460 packets</strong> flew through the mesh via <strong>85 nodes</strong>. That’s like the digital equivalent of a late-night diner rush—everyone’s ordering telemetry and position updates.</p>
+<p>On the flip side, things got sleepy at <strong>0700</strong>, when only <strong>10 packets</strong> trickled in from just two active nodes. Did everyone hit snooze? Probably.</p>
+<p>The <strong>last six hours</strong> were a different story entirely. Packet rates surged <strong>414%</strong> above baseline, making for a sudden uptick in mesh chatter that would make even a CB radio proud.</p>
+<p>Channel utilization remains light at <strong>3.4%</strong>, with <strong>TX airtime at just 1.9%</strong>—plenty of bandwidth to spare. Even with all the traffic, the lanes are clear and there’s no sign of congestion.</p>
+<p>Top packet contributors include:
+- <strong>TELEMETRY_APP</strong>: 1,880 packets<br />
+- <strong>POSITION_APP</strong>: 935 packets<br />
+- <strong>NODEINFO_APP</strong>: 502 packets<br />
+- <strong>UNKNOWN</strong>: 261 packets (still a mystery—who are these digital ghosts?)</p>
+<p>Remember: our reporter node was offline for <strong>7 hours</strong>, so real activity was almost certainly higher. Imagine a traffic cam going down during rush hour—chaos still happened, we just didn’t see it all.</p>
+<hr />
+<h2>📡 <strong>SIGNAL CONDITIONS</strong></h2>
+<p>Our RF signal bureau had a lot to report today. Overall conditions were <strong>mixed</strong>, with signal strengths ranging from a crisp <strong>-65 dBm</strong> (strong!) to a bone-chilling <strong>-121 dBm</strong> (yikes).</p>
+<p>The average RSSI came in at <strong>-107 dBm</strong>, skewing weak for most nodes. Nearly <strong>53%</strong> of packets logged below <strong>-115 dBm</strong>, indicating patchy coverage across parts of the network. Think of it like trying to hear a radio in a thunderstorm—some nodes are crystal clear, others just static.</p>
+<p>SNR (Signal-to-Noise Ratio) averaged a modest <strong>-7.5 dB</strong>, with values swinging between a noisy <strong>-21.5 dB</strong> and a respectable <strong>+8.0 dB</strong>. Negative SNR means we’re fighting interference—common in heavily wooded or urban environments.</p>
+<p>When it comes to hop counts, <strong>3-hop and 4-hop packets dominated</strong>, each accounting for about <strong>22%</strong> of traffic. That’s a good sign—the mesh is doing its job, relaying messages across long distances. Only <strong>47 packets</strong> came in direct (zero-hop), underscoring how much of our network depends on intermediate nodes.</p>
+<p>On the bright side, <strong>HOONET-1</strong> delivered strong signals at <strong>-69 dBm</strong>, and <strong>HOONET-2</strong> held steady at <strong>-80 dBm</strong>—both textbook examples of solid mesh propagation.</p>
+<p>But don’t forget: our base station hiccup meant we <strong>missed 7 hours of signal data</strong>, so take these readings as a partial picture of an active, noisy, and occasionally brilliant mesh.</p>
+<hr />
+<h2>🛠️ <strong>INFRASTRUCTURE STATUS</strong></h2>
+<p>Let’s check under the hood. As of today, the HOONET mesh hosts <strong>331 total nodes</strong>, with <strong>186 active in the last 24 hours</strong> and <strong>58 within the last hour</strong>. That’s a healthy showing for a regional network, especially considering yesterday’s hardware hiccup.</p>
+<p>Our own system took a breather—<strong>HOONET base station (!ba66ff38)</strong> was offline for about <strong>7 hours</strong> thanks to yet another Heltec V3 freeze. Again, this <strong>did not</strong> reflect a network-wide outage; in fact, actual traffic was likely higher than our logs suggest.</p>
+<p>Battery health across the network is <strong>mostly solid</strong>, with 32 nodes running at full charge. Only a few outliers are showing signs of concern:
+- <strong>Meridien Base Solar [HELTEC_V4]</strong>: 40%<br />
+- <strong>TC Solar [RAK4631]</strong>: 63%<br />
+- <strong>GBC Base - Wolfeboro [SEEED_SOLAR_NODE]</strong>: 0% <em>(needs attention)</em></p>
+<p>Key infrastructure nodes remain active and chatty:
+- <strong>Sterling Hub [STATION_G2]</strong>: 134 packets, last seen 3 minutes ago<br />
+- <strong>Tyngsboro, MA West Attic Base [RAK4631]</strong>: 207 packets, last seen 28 minutes ago<br />
+- <strong>Moon Station G2</strong>: 40 packets, last 5 minutes ago  </p>
+<p>A few regulars have gone quiet:
+- <strong>Wheelbase [SEEED_SOLAR_NODE]</strong><br />
+- <strong>Starbase80 [HELTEC_V4]</strong><br />
+- <strong>MeshRackSolar1 [RAK4631]</strong>  </p>
+<p>Time to check in with these long-absent nodes—retired or rebooting?</p>
+<hr />
+<h2>🗺️ <strong>COVERAGE MAP</strong></h2>
+<p>The HOONET mesh is spreading its invisible wings. Our current footprint spans from <strong>41.71°N to 44.08°N</strong> and <strong>-74.42°W to -70.22°W</strong>, a <strong>160-mile latitudinal</strong> and <strong>175-mile longitudinal</strong> stretch—covering much of southern New Hampshire and beyond.</p>
+<p>We’ve got <strong>195 geolocated nodes</strong>, with <strong>28 new arrivals</strong> just this week. That’s a healthy rate of expansion—especially for a community-driven mesh.</p>
+<p>Mobile nodes are keeping things lively. <strong>CheeseFish Stick [HELTEC_MESH_NODE_T114]</strong> hit speeds of up to <strong>48 km/h</strong> near I-93, while <strong>MahtRak [RAK4631]</strong> logged a massive <strong>67.8 km</strong> across five pings—likely a delivery or service vehicle on the move.</p>
+<p>Most packets traveled 3 or 4 hops, with only a handful of direct connections—again, showing how reliant our network is on intermediate relays.</p>
+<p>Signal-wise, HOONET-1 and HOONET-2 continue to shine, with strong RSSI and SNR readings. But the average signal strength of <strong>-107 dBm</strong> reminds us that meshing in New Hampshire’s forests and hills isn’t always easy.</p>
+<p>Still, the network grows, adapts, and extends its reach, one node at a time.</p>
+<hr />
+<h2>👥 <strong>COMMUNITY PAGE</strong></h2>
+<p>The community spirit of HOONET is alive and well, even with our own station taking a breather. Over the past 24 hours, the mesh lit up with new faces, friendly check-ins, and some seriously ambitious messaging.</p>
+<p>Welcome to <strong>28 new nodes</strong>, including the whimsically named <strong>Troll2</strong>, <strong>MapleMesh</strong>, and the cheeky <strong>Dr. BananaMan</strong> (your battery slipped from 90% to 65%—we’re keeping an eye on you, Doc).</p>
+<p>Notable check-ins included:
+- <strong>CheeseFish Stick</strong> from Canterbury (solid two-hop)
+- <strong>Northfield NH East</strong> giving a 👍
+- A mysterious <strong>Ghost of Ronny Appleseed</strong>, dropping a thumbs-up and vanishing</p>
+<p>Our most active community members include:
+- <strong>HOONET-1 and HOONET-2</strong> (1,500+ packets!)
+- <strong>Tyngsboro MA West Attic Base</strong>
+- <strong>Stoneridge Red</strong>
+- <strong>NewBostonNH_2</strong></p>
+<p>Some nodes reported high channel utilization warnings—<strong>Bear Hill</strong>, <strong>GOFF North Repeater</strong>, and <strong>Ultramar Fort Mt</strong>—so let’s keep an eye on those to prevent congestion.</p>
+<p>Thanks to all our neighbors near and far. Whether you’re sending weather reports, testing signal strength, or just saying hello, you’re all part of what makes this network special.</p>
+<p>Stay meshy, New Hampshire.</p>
+<hr />
+<h2>📈 <strong>BY THE NUMBERS</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Total Nodes</strong></td>
+<td>331</td>
+</tr>
+<tr>
+<td><strong>Active Nodes (24h)</strong></td>
+<td>186</td>
+</tr>
+<tr>
+<td><strong>Active Nodes (1h)</strong></td>
+<td>58</td>
+</tr>
+<tr>
+<td><strong>New Nodes (24h)</strong></td>
+<td>28</td>
+</tr>
+<tr>
+<td><strong>Total Packets (24h)</strong></td>
+<td>3,716</td>
+</tr>
+<tr>
+<td><strong>Peak Packet Hour</strong></td>
+<td>02:00 AM — 460 packets</td>
+</tr>
+<tr>
+<td><strong>Channel Utilization</strong></td>
+<td>3.4%</td>
+</tr>
+<tr>
+<td><strong>TX Airtime</strong></td>
+<td>1.9%</td>
+</tr>
+<tr>
+<td><strong>Avg RSSI</strong></td>
+<td>-107 dBm</td>
+</tr>
+<tr>
+<td><strong>Avg SNR</strong></td>
+<td>-7.5 dB</td>
+</tr>
+<tr>
+<td><strong>Battery Nodes (100%)</strong></td>
+<td>32</td>
+</tr>
+<tr>
+<td><strong>Weakest Battery Node</strong></td>
+<td>GBC Base - Wolfeboro: 0%</td>
+</tr>
+<tr>
+<td><strong>Fastest Mobile Node</strong></td>
+<td>CheeseFish Stick: 48 km/h</td>
+</tr>
+<tr>
+<td><strong>Longest Distance Node</strong></td>
+<td>MahtRak [RAK4631]: 67.8 km</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>✍️ <strong>EDITOR’S NOTE</strong></h2>
+<p>Well, another day, another Heltec V3 freeze. It’s becoming a recurring theme around here—but don’t worry, dear readers. That 7-hour gap in our reporting? Not a network apocalypse. Just our hardware being temperamental. The mesh? Still bustling with life.</p>
+<p>We’re seeing real progress: <strong>new nodes joining daily</strong>, <strong>mobile units logging impressive distances</strong>, and <strong>traffic surges that rival a TikTok feed</strong>. Our community is growing, chattering, and connecting—and that’s exactly what we love to see.</p>
+<p>Big thanks go out to the team behind the scenes who’ve been migrating to <strong>Pi 4 hardware</strong>, enabling new <strong>bot transmission capabilities</strong>, and rolling out <strong>traceroute functionality</strong>. The platform is evolving fast, and we’re lucky to be riding the wave.</p>
+<p>Until tomorrow’s edition, keep your nodes charged, your antennas aligned, and your mesh spirit high.</p>
+<p>📡 <em>—The Editor-in-Chief</em></p>
+</body>
+</html>
