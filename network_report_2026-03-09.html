@@ -35,62 +35,69 @@
 <p><strong>Sunday, March 8, 2026</strong><br />
 <em>All the packets that's fit to transmit</em></p>
 <hr />
-<h2><strong>Headlines</strong></h2>
+<h2><strong>Top Stories This Week</strong></h2>
+<p>📡 <strong>Sunday Surge: 300+ Packet Rush at 14:00</strong> — Mesh traffic spikes fourfold in afternoon peak<br />
+📶 <strong>Signal Skies Mostly Foggy</strong> — Weak propagation prevails, but HOONET-UNCANOONUC shines<br />
+📍 <strong>New England Still Sprawling</strong> — 8 fresh nodes join, from Montpelier to Merrimack<br />
+🔌 <strong>Power Play: Battery Levels Healthy, Except Wolfeboro</strong> — Infrastructure report shows strong charge landscape  </p>
+<hr />
+<h2><strong>Front Page Summary</strong></h2>
+<p>Sunday’s Meshtastic mesh was a study in contrasts: a slow morning crawl that exploded into a late-afternoon traffic jam. Over <strong>1,824 packets</strong> flowed through our Goffstown listening post — a modest daily average that belies peak-hour surges. The 14:00 ET rush brought <strong>306 packets</strong>, a <strong>414% spike</strong> from the sleepy morning doldrums.</p>
+<p>Signal conditions remained challenging overall, with an <strong>average RSSI of -113 dBm</strong> and <strong>SNR of -9.0 dB</strong>, placing most traffic in the <strong>weak-to-fair</strong> range. But the mesh held steady, with a healthy <strong>14% channel utilization</strong> and just <strong>2.4% TX airtime</strong> — no sign of congestion. </p>
+<p>Eight new nodes joined, including a HELTEC_V4 near the Merrimack River and a RAK4631 in Bradford, VT. The community remains robust with <strong>450 total nodes tracked</strong>, <strong>191 active in the last 24 hours</strong>, and strong multi-hop routing confirming the mesh’s geographic reach.</p>
+<hr />
+<h2><strong>Traffic Report – Sunday’s Packet Pulse</strong></h2>
+<p>It was a slow burn before the fuse lit — and once it did, the mesh traffic came roaring in like a convoy of delivery trucks after a snowstorm.</p>
+<p>Over the <strong>last 24 hours</strong>, HOONET logged <strong>1,824 packets</strong>, averaging <strong>76 per hour</strong>. The quietest stretch was 09:00 ET, with only <strong>75 packets</strong> trickling in — think Sunday morning drives to the bagel shop. But by <strong>14:00 ET</strong>, things erupted: <strong>306 packets</strong> roared through the mesh, a <strong>414% increase</strong> from the six-hour average.</p>
+<p>Channel utilization sat at a comfortable <strong>14%</strong>, and TX airtime remained low at <strong>2.4%</strong>, signaling no bottlenecks. Most traffic came from <strong>telemetry (673)</strong> and <strong>position reports (499)</strong>, with only <strong>39 text messages</strong> — confirming that the mesh is more data highway than chatroom.</p>
+<p><strong>Key Takeaway</strong>: Sunday’s mesh was a slow-burn build-up with a high-speed finale. The network stayed calm under pressure, and the afternoon surge proved its readiness for Monday traffic.</p>
+<hr />
+<h2><strong>Signal Conditions – Foggy Skies, Bright Spots</strong></h2>
+<p>Sunday’s RF landscape was a mixed bag — mostly weak, with a few beacons cutting through the noise.</p>
+<p>We recorded <strong>1,337 packets</strong> with valid signal data, showing an <strong>average RSSI of -113 dBm</strong> and <strong>SNR of -9.0 dB</strong>, both in the <strong>fair-to-poor</strong> range. A foggy RF environment, if you will.</p>
+<p>Only <strong>77 packets</strong> registered as <strong>strong (≥ -100 dBm)</strong>, and just <strong>5</strong> hit the <em>Good</em> mark. Most of the traffic — <strong>779 packets</strong> — fell in the <em>Weak</em> range, with <strong>276 packets</strong> barely audible as <em>Very Weak (RSSI &lt; -120)</em>.</p>
+<p>But it wasn’t all misty static. Our own <strong>HOONET-UNCANOONUC</strong> stood out like a mountaintop lighthouse, averaging a toasty <strong>-32 dBm</strong> with an SNR of <strong>6.7 dB</strong>. Other bright spots included <strong>MahtRak (-92 dBm)</strong> and <strong>KC1VOA (-97 dBm)</strong>.</p>
+<p>Multi-hop routing confirmed the mesh is still routing long-distance: <strong>68% of packets traveled 2 hops or more</strong>, with <strong>326 packets</strong> using exactly 2 hops. The network remains resilient, even when signals are faint.</p>
+<hr />
+<h2><strong>Infrastructure Status – Powering the Mesh</strong></h2>
+<p>All systems are go: HOONET’s <strong>Heltec WiFi LoRa 32 V3 listener</strong> ran smoothly throughout the day, with no disconnects or hardware hiccups.</p>
+<p>The top infrastructure nodes kept the network humming:</p>
 <ul>
-<li>🚦 Sunday Rush Hour Peaks at 293 Packets — Nearly 4x Average</li>
-<li>☁️ RF Fog Thickens as Signals Struggle Through the Ether</li>
-<li>🏔️ New Nodes Sprout Like Spring Wildflowers — Welcome, Dr. BananaMan</li>
-<li>🔋 Battery Health Strong, But Two Nodes on Critical Watch List</li>
+<li><strong>Tyngsboro West Attic Base [RAK4631]</strong>: 592 packets  </li>
+<li><strong>Repeater East af7c [STATION_G2]</strong>: 561 packets  </li>
+<li><strong>NHMesh Ultramar Fort Mt Router [RAK4631]</strong>: 520 packets  </li>
+<li><strong>Sterling Hub [STATION_G2]</strong>: 364 packets  </li>
+<li><strong>Gecko Repeater [HELTEC_V3]</strong>: 226 packets (last heard 21h ago)</li>
 </ul>
+<p>Battery health remains strong, with <strong>93% average charge</strong> across infrastructure nodes. Twenty-two nodes reported full charge (<strong>101%</strong>), and only one — <strong>GBC Base - Wolfeboro</strong> — reported a concerning <strong>36% battery</strong>, warranting a community watch.</p>
+<p>Charging levels were strong across the board, with high performers including <strong>Mast Road Solar (101%, 24.8% ch)</strong> and <strong>Kearsarge Solar (97%, 37.6% ch)</strong>.</p>
 <hr />
-<h2><strong>Front Page</strong></h2>
-<p>It was a mixed bag on the mesh this Sunday—busy arterials, mysterious new nodes, and a steady digital heartbeat keeping the network alive. Our Heltec listener in Goffstown caught a full day of digital motion, from the bustling 15:00 rush hour (293 packets!) to the sleepy 14:00 lull (just 12 packets). Over 1,800 packets zipped through the ether, with key infrastructure nodes like <strong>NHMesh Ultramar Fort Mt Router</strong> and <strong>Maine Router 2</strong> keeping the backbone strong.</p>
-<p>Signal conditions were foggy at best, averaging <strong>-113 dBm RSSI</strong>, and hop counts showed a healthy reliance on multi-hop routing. Meanwhile, eight new nodes joined the mesh, from the cheeky <strong>CheeseFish Limpet</strong> to the scenic <strong>HOONET-UNCANOONUC</strong>, boosting our total to 450 nodes. The community spirit thrives, too—daily check-ins, mobile wanderers, and even a few altitude anomalies. This is the mesh in motion.</p>
+<h2><strong>Coverage Map – From Mountaintops to Merrimack</strong></h2>
+<p>The network’s geographic reach remains impressive, stretching <strong>2.5 degrees of latitude and 4.2 degrees of longitude</strong>. That’s about <strong>280 km north to south</strong> and <strong>330 km east to west</strong>, all monitored from Goffstown’s single omnidirectional antenna.</p>
+<p><strong>Mobile movement</strong> was modest but notable. <strong>RWNL_Mobile</strong> topped the speed charts at <strong>41 km/h</strong> near HOONET’s hilltop. Meanwhile, <strong>CheeseFish Stick</strong> set a wandering record with a <strong>17.3 km route</strong> through central NH.</p>
+<p>Multi-hop routing confirmed the mesh’s reach: <strong>326 packets</strong> traveled 2 hops, and even <strong>48 packets</strong> made it through 6 hops — digital echoes from distant hills.</p>
+<p>Among the <strong>eight new nodes</strong>, standouts include:
+- A <strong>RAK4631</strong> in Bradford, VT<br />
+- A <strong>HELTEC_V4</strong> on the Merrimack River  </p>
 <hr />
-<h2><strong>Traffic Report</strong></h2>
-<p>Traffic on the HOONET mesh this Sunday was like a digital Gold Rush—rushing in the afternoon, quiet by dawn. The peak hour hit at <strong>15:00</strong> with <strong>293 packets</strong> and <strong>100 active nodes</strong>, nearly <strong>four times</strong> the daily average of <strong>76 packets per hour</strong>. That’s some serious data traffic, folks.</p>
-<p>But it wasn’t all rush hour madness. The <strong>14:00</strong> hour barely saw a whisper, with only <strong>12 packets</strong>—like a late-night drive through the countryside. All told, the network processed <strong>1,819 packets</strong> over 24 hours, with <strong>12.1% channel utilization</strong> and <strong>2.8% TX airtime</strong>, indicating a healthy, uncongested flow.</p>
-<p>The packet breakdown tells its own story:
-- <strong>TELEMETRY_APP</strong>: 678 packets (engine diagnostics, anyone?)
-- <strong>POSITION_APP</strong>: 497 packets (GPS breadcrumbs)
-- <strong>NODEINFO_APP</strong>: 323 packets (digital license plates)</p>
-<p>Ten nodes went dark, including <strong>MapleMesh</strong> and <strong>Starbase80</strong>, but that’s the ebb and flow of a decentralized network. With 8 new faces joining, the mesh remains a growing, breathing thing.</p>
-<hr />
-<h2><strong>Signal Conditions</strong></h2>
-<p>Sunday’s RF skies were partly cloudy—with patches of fog. Our average signal strength sat at <strong>-113 dBm</strong>, with a wide range from <strong>-14 dBm</strong> (clear as a bell) down to <strong>-128 dBm</strong> (fading into static). Think of it as driving through New Hampshire back roads—some turns bring you a crystal-clear signal, others leave you grasping at noise.</p>
-<p>The <strong>Signal-to-Noise Ratio (SNR)</strong> averaged <strong>-9.1 dB</strong>, ranging from a crisp <strong>+7.8 dB</strong> to a muddy <strong>-21.0 dB</strong>. The strongest signal of the day was <strong>HOONET-UNCANOONUC</strong>, which blazed through with <strong>-32 dBm RSSI</strong> and <strong>+6.7 dB SNR</strong>—a digital lighthouse cutting through the fog.</p>
-<p>Nearly <strong>75% of packets</strong> were received at <strong>-120 dBm or weaker</strong>, indicating weak signal propagation, likely due to terrain and seasonal atmospheric conditions. Most packets traveled <strong>2–3 hops</strong>, with <strong>48 packets</strong> making it all the way through <strong>6-hop</strong> paths. That’s impressive endurance for weak signals.</p>
-<p>In short, propagation remains <strong>fair to poor</strong>, but the mesh still holds strong—thanks to resilient routing and active repeaters.</p>
-<hr />
-<h2><strong>Infrastructure Status</strong></h2>
-<p>The mesh’s backbone remains as steady as ever. Our infrastructure monitoring shows a network of <strong>450 total nodes</strong>, with <strong>193 active in the last day</strong> and <strong>88 active in the last hour</strong>. Channel utilization stood at <strong>12.1%</strong>, and TX airtime was just <strong>2.8%</strong>—indicating plenty of bandwidth to spare.</p>
-<p>Key infrastructure stars include:
-- <strong>NHMesh Ultramar Fort Mt Router [RAK4631]</strong>: Most active node with <strong>520 packets</strong>
-- <strong>Maine Router 2 [RAK4631]</strong>: <strong>170 packets</strong>, solid presence
-- <strong>HortonHome mainemesh.org [STATION_G2]</strong>: Battery at <strong>101%</strong>, channel utilization at <strong>21.7%</strong>
-- <strong>Gecko Repeater [HELTEC_V3]</strong>: <strong>226 packets</strong>, last heard 21 hours ago</p>
-<p>Battery health is generally strong:
-- <strong>101%</strong>: 19 nodes (typical for solar systems)
-- <strong>90–100%</strong>: 54 nodes
-- <strong>Below 77%</strong>: Just 4 nodes, including <strong>GBC Base - Wolfeboro (36%)</strong> and <strong>Exile Solar MTEC (55%)</strong></p>
-<p>Environmental sensors reported temperatures from freezing to nearly tropical—<strong>0.0°C to 33.0°C</strong>, with a network average of <strong>20.2°C</strong>. Some sensors, like <strong>Meshtastic 0310</strong>, may be offline after reporting a freeze point.</p>
-<p>Overall, the infrastructure remains stable, with a few nodes needing attention.</p>
-<hr />
-<h2><strong>Coverage Map</strong></h2>
-<p>The mesh’s geographic footprint was wide and active this weekend, stretching from southern Vermont to coastal New Hampshire. Coverage spans <strong>latitudes 41.71°N to 44.28°N</strong> and <strong>longitudes -74.42°W to -70.22°W</strong>, with <strong>263 positioned nodes</strong> helping us map the digital terrain.</p>
-<p>Mobile movement was lively. <strong>RWNL_Mobile</strong> and <strong>Awoobeam</strong> were spotted cruising at <strong>41 km/h</strong>, likely along highways. <strong>CheeseFish Stick</strong> logged a roaming arc of <strong>17.3 km</strong>, zigzagging from Franklin to Tilton. <strong>Hemlock2</strong> cruised through Sullivan County at <strong>33 km/h</strong>, while <strong>blipimus</strong> tore up the tarmac at a blistering <strong>175 km/h</strong>—though we’re assuming that’s GPS drift, not a NASCAR node.</p>
-<p>Hop counts show a healthy mesh with <strong>318 two-hop packets</strong>, indicating strong local relay support. The strongest signal station, <strong>HOONET-UNCANOONUC</strong>, averaged <strong>-32 dBm RSSI</strong>—a beacon in the digital hills.</p>
-<hr />
-<h2><strong>Community Page</strong></h2>
-<p>Our digital town square was bustling on Sunday, with daily check-ins, new faces, and the kind of quirky personalities that make meshing special. The <strong>1400 quick check-in net</strong> was led by <strong>KSG2 6a91</strong>, with warm hellos from Warner, Westford, and New Ipswich. Hemlock checked in twice—clearly a mesh enthusiast.</p>
-<p>Eight new nodes made their debut, including the cheeky <strong>CheeseFish Limpet</strong>, the scenic <strong>policy33</strong>, and the ever-busy <strong>HOONET-UNCANOONUC</strong> (47 packets in a few hours!). One node reported an altitude of <strong>9,285 meters</strong>—we’re guessing it’s time to calibrate the altimeter. Another checked in from <strong>negative altitude</strong>, presumably in a cellar. Either way, we love the digital mysteries.</p>
-<p>Big thanks to community stalwarts like <strong>Stoneridge Red</strong>, <strong>NHMesh Ultramar Fort Mt Router</strong>, and <strong>HOONET-1</strong> for keeping the chatter strong. In a mesh of nodes, it’s the people that make the network.</p>
+<h2><strong>Community Page – Chatter Across the Hills</strong></h2>
+<p>The mesh was alive with voices on Sunday — not just packets, but personalities.</p>
+<p>We logged <strong>30 text messages</strong>, with <strong>KSG2 6a91</strong> hosting check-in nets at 0645 and 1400. Friendly check-ins came in from <strong>Hemlock (New Ipswich)</strong>, <strong>KSG3 (Warner)</strong>, and <strong>Meshtastic 3dc8</strong>, who got a shoutout from 6268 three hops away — long-range neighborliness at its finest.</p>
+<p>Among the newcomers:
+- <strong>CheeseFish Limpet</strong>, active just 53 seconds ago<br />
+- <strong>policy33</strong>, a TRACKER_T1000_E, steadily pinging<br />
+- Notably, <strong>HOONET-UNCANOONUC</strong> also showed in the “new” list — again, just doing its mountaintop job.</p>
+<p>Active chatters included:
+- <strong>NHMesh UTR 1w</strong><br />
+- <strong>Merrimack County 1</strong><br />
+- Our own <strong>HOONET-1</strong>, humming along with 487 packets</p>
+<p>A few quirks stood out — one traveler reported <strong>9,285 meters altitude</strong> (plane or balloon?), and another clocked in at <strong>-171 meters</strong> — possibly enjoying some basement vibes.</p>
 <hr />
 <h2><strong>By The Numbers</strong></h2>
 <table>
 <thead>
 <tr>
-<th>Category</th>
+<th>Metric</th>
 <th>Value</th>
 </tr>
 </thead>
@@ -100,70 +107,82 @@
 <td>450</td>
 </tr>
 <tr>
-<td>Active (24h)</td>
-<td>193</td>
+<td>Active Nodes (24h)</td>
+<td>191</td>
 </tr>
 <tr>
-<td>Active (1h)</td>
-<td>88</td>
+<td>Active Nodes (last hour)</td>
+<td>89</td>
 </tr>
 <tr>
-<td>New Nodes (24h)</td>
+<td>New Nodes</td>
 <td>8</td>
 </tr>
 <tr>
-<td>Total Packets (24h)</td>
-<td>1,819</td>
+<td>Packets (24h)</td>
+<td>1,824</td>
 </tr>
 <tr>
-<td>Avg. Packets/hour</td>
+<td>Average Packets / Hour</td>
 <td>76</td>
 </tr>
 <tr>
+<td>Peak Hour (14:00 ET)</td>
+<td>306 packets</td>
+</tr>
+<tr>
 <td>Channel Utilization</td>
-<td>12.1%</td>
+<td>14.0%</td>
 </tr>
 <tr>
 <td>TX Airtime</td>
-<td>2.8%</td>
+<td>2.4%</td>
 </tr>
 <tr>
-<td>Avg. RSSI</td>
+<td>Avg RSSI</td>
 <td>-113 dBm</td>
 </tr>
 <tr>
-<td>Avg. SNR</td>
-<td>-9.1 dB</td>
+<td>Avg SNR</td>
+<td>-9.0 dB</td>
 </tr>
 <tr>
-<td>Strongest Signal</td>
-<td>HOONET-UNCANOONUC @ -32 dBm</td>
+<td>Strong Signals (≥ -100 dBm)</td>
+<td>77</td>
 </tr>
 <tr>
-<td>Battery (100%)</td>
-<td>19 nodes</td>
+<td>Weak Signals (&lt; -120 dBm)</td>
+<td>276</td>
 </tr>
 <tr>
-<td>Critically Low</td>
-<td>4 nodes (GBC Base - 36%, MTEC - 55%)</td>
+<td>Multi-hop (2+ hops)</td>
+<td>68%</td>
 </tr>
 <tr>
-<td>Environmental Sensors</td>
-<td>21 nodes</td>
+<td>Battery Avg</td>
+<td>93%</td>
 </tr>
 <tr>
-<td>Avg. Temp</td>
-<td>20.2°C (68°F)</td>
+<td>Temp Range</td>
+<td>0.0°C to 33.0°C</td>
+</tr>
+<tr>
+<td>Coverage Area</td>
+<td>41.71–44.28°N, -74.42–-70.22°W</td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h2><strong>Editor's Note</strong></h2>
-<p>Sunday’s mesh was a study in contrasts—peaks and valleys, fog and clarity, stillness and motion. The network hums along, steady and strong, with new faces joining daily and old timers keeping the signal alive. While RSSI readings trended weak, the mesh showed resilience, especially on the multi-hop front. Our infrastructure remains solid, with just a few nodes in need of a battery boost.</p>
-<p>Looking back at the week, traffic has been on a gentle decline—from Friday’s <strong>5,712 packets</strong>, to Saturday’s <strong>7,012</strong>, to Sunday’s <strong>1,819</strong>—but this is normal ebb and flow. No signs of outage, just seasonal variance and RF conditions.</p>
-<p><strong>Platform Changes:</strong> Our development team rolled out several exciting updates this weekend, including support for <strong>encrypted remote admin commands</strong>, new <strong>bot features</strong>, and <strong>repeater configuration enhancements</strong>. The team also shipped <strong>improved watchdog logic</strong> and a <strong>Dockerized visualization pipeline</strong>—tools that’ll help us keep this digital gazette accurate and up to date. The new <code>!researchme</code> command is already a hit with the bot-loving crowd.</p>
-<p>Keep your radios charged, your firmware updated, and your antennas high. Until tomorrow’s edition, stay meshy.</p>
-<p>— <em>The Editor-in-Chief</em><br />
-<strong>HOONET Daily Mesh Gazette</strong></p>
+<h2><strong>Editor’s Note</strong></h2>
+<p>Sunday’s mesh report paints a picture of a network that’s settling into spring rhythms — quiet mornings, bustling afternoons, and a few digital oddities tossed in for flavor. The drop in early traffic? Not a sign of decline, but a confirmation that even meshes need their Sunday coffee.</p>
+<p>Compared to Saturday’s <strong>7,012 packets</strong>, Sunday’s <strong>1,824</strong> may look low — but Saturday’s numbers included a full 24 hours of continuous data. Sunday’s report covered a full calendar day but with a few expected lulls. Still, the afternoon spike proves the mesh is ready for action.</p>
+<p>The development team has been busy too. Over the last 24 hours, they shipped <strong>10 updates</strong>, including:
+- Encrypted admin command support<br />
+- New bot commands like <code>!status</code> and <code>!researchme</code><br />
+- Improvements to repeater management and BLE PIN handling  </p>
+<p>These changes set the stage for smarter, safer mesh management — and may explain the uptick in telemetry and internal packets.</p>
+<p>The HOONET mesh is growing, reaching, and chatting — all while staying healthy. As always, keep your nodes charged, your antennas high, and your check-ins cheerful.</p>
+<p>— <em>The HOONET Daily Mesh Gazette</em><br />
+📡 <em>Monitoring the Meshtastic pulse from Goffstown, NH</em></p>
 </body>
 </html>
