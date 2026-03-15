@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Report 2026-03-14</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #1a1a2e;
+            background: #f8f9fa;
+            line-height: 1.6;
+        }
+        h1, h2, h3 { color: #16213e; }
+        h1 { border-bottom: 2px solid #16213e; padding-bottom: 10px; }
+        table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+        th, td { border: 1px solid #ccc; padding: 6px 10px; text-align: left; }
+        th { background: #eef1f5; }
+        pre { background: #eef1f5; padding: 12px; overflow-x: auto; border-radius: 4px; }
+        code { background: #eef1f5; padding: 2px 4px; border-radius: 3px; font-size: 0.9em; }
+        pre code { background: none; padding: 0; }
+        img { max-width: 100%; height: auto; border-radius: 4px; margin: 12px 0; }
+        a { color: #0f3460; }
+        .nav { margin-bottom: 20px; font-size: 0.9em; }
+        .nav a { color: #0f3460; text-decoration: none; }
+        .nav a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="nav"><a href="index.html">&larr; All Reports</a></div>
+    <h1>THE HOONET DAILY MESH GAZETTE</h1>
+<p><strong>Saturday, March 14, 2026</strong><br />
+<em>All the packets that's fit to transmit</em></p>
+<hr />
+<h2><strong>HEADLINES</strong></h2>
+<ul>
+<li>🌐 5,359 packets zip across NHMesh in 24-hour data blitz  </li>
+<li>📡 Strong signal diversity, with whispers from -126 dBm to booms at -28 dBm  </li>
+<li>🚦 24 new nodes hit the airwaves — including <em>Amber Cricket</em> and <em>Vanilla Gorilla Solar</em>  </li>
+<li>⚡ <em>HOONET-WINDSONG</em> battery plummets from 95% to 11% in one day  </li>
+</ul>
+<hr />
+<h2><strong>FRONT PAGE</strong></h2>
+<p>The New Hampshire Meshtastic mesh lit up like a St. Paddy’s parade yesterday, with a healthy surge in packet traffic and the arrival of 24 fresh nodes. From solar-powered wanderers to high-speed mobiles, the mesh is buzzing with life — and a little bit of mystery. Signal conditions varied from crystal clear to barely audible, painting a complex picture of propagation and path diversity.</p>
+<p>While our own HOONET-PRIME and HOONET-UNCANOONUC held steady, the network showed signs of expansion, resilience, and an increasing reliance on telemetry and position data over text. As we gear up for St. Patrick’s Day, the mesh is anything but unlucky — it’s thriving.</p>
+<hr />
+<h2><strong>TRAFFIC REPORT</strong></h2>
+<p><strong>Highway Congestion? Nah — We're Cruising.</strong></p>
+<p>Yesterday’s packet traffic hit <strong>5,359 packets</strong>, averaging <strong>223 per hour</strong>, a notable drop from Friday’s 6,343 but still above the weekly norm. Traffic peaked at <strong>noon</strong>, with <strong>303 packets</strong> flooding the ether — the busiest hour of the day. Curiously, only <strong>47 nodes</strong> were active during that spike, suggesting a few chatty repeaters hogged the lane.</p>
+<p>The early morning (6 to 8 a.m.) flowed smoothly with <strong>240–280 packets/hour</strong> — the kind of steady pace you’d want on your way to breakfast. But by <strong>8 p.m.</strong>, things quieted to a crawl with just <strong>118 packets/hour</strong>, quieter than a backroad in Rumney.</p>
+<p>Channel utilization sat at <strong>13.1%</strong>, and airtime at <strong>3.8%</strong> — confirming that while traffic is lively, the mesh isn’t even close to gridlock.</p>
+<p><strong>Packet Breakdown:</strong>
+- 🧠 <strong>Telemetry</strong>: 2,252 packets (dashboard pings, sensor data)
+- 🧭 <strong>Positions</strong>: 1,558 packets (GPS beaconing)
+- 📑 <strong>Node Info</strong>: 932 packets (new and returning nodes announcing themselves)
+- ❓ <strong>Unknown</strong>: 349 (protocol noise, weird encodings)
+- 💬 <strong>Text Messages</strong>: 103 (rare birds in the mesh skies)
+- 🔄 <strong>Routing</strong>: 90 packets (mesh relay chatter)
+- 📦 <strong>Store &amp; Forward</strong>: 30 packets
+- 🛠️ <strong>Admin</strong>: 22 packets (remote updates, likely)</p>
+<hr />
+<h2><strong>SIGNAL CONDITIONS</strong></h2>
+<p><strong>RF Weather: Clear Skies and Fading Fog</strong></p>
+<p>Signal conditions yesterday painted a fascinating portrait — from booming close-range beacons to whispers from the edge of LoRa's reach.</p>
+<ul>
+<li><strong>Average RSSI</strong>: -93 dBm (moderate propagation)</li>
+<li><strong>Strongest Signal</strong>: -28 dBm (local node practically on top of us)</li>
+<li><strong>Weakest Signal</strong>: -126 dBm (long-range survivor)</li>
+</ul>
+<p>Signal-to-noise ratios were <em>mostly</em> cooperative, averaging <strong>-8.1 dB SNR</strong>, with peaks at a sunny <strong>+8.0 dB</strong> and lows at <strong>-21.8 dB</strong> — a snow squall of RF interference.</p>
+<p>Most packets (1,395) arrived in the <em>strong</em> category (≥ -100 dBm), though surprisingly few were tagged as <em>good</em>, possibly due to brief listener lulls. Over <strong>2,400 packets</strong> were <em>weak or very weak</em>, suggesting long-range paths or marginal nodes.</p>
+<p>Hop counts confirmed the mesh’s depth:
+- <strong>3 hops</strong> was the most common path (730 packets)
+- <strong>0 hops</strong> (direct signal): 98 packets
+- <strong>Max hops</strong>: 6 — a full cascade of mesh relay</p>
+<p>Among the strongest signals:
+- <strong>Bravo 1</strong> (-37 dBm)
+- <strong>Meshtastic f440</strong> (-41 dBm)
+- <strong>HOONET-WINDSONG</strong> (-51 dBm)
+- <strong>HOONET-MOJO</strong> (-53 dBm)</p>
+<p><em>Takeaway</em>: Yesterday’s RF weather was a mix of <strong>clear local skies and distant static storms</strong> — good for long-range listening but with plenty of signal fading.</p>
+<hr />
+<h2><strong>INFRASTRUCTURE STATUS</strong></h2>
+<p><strong>Health Check: All Systems Nominal</strong></p>
+<p>Our listener, <strong>HOONET-PRIME (!ba66ff38)</strong>, stayed up all night and didn’t miss a beat. Firmware remains at <strong>v2.7.20 (develop)</strong>, region locked to <strong>US</strong>, and modulation at <strong>LONG_FAST (SF11/BW250)</strong>. No downtime recorded — all clear for monitoring.</p>
+<p><strong>Top Active Nodes:</strong>
+- <strong>Tyngsboro, MA West Attic Base [RAK4631]</strong>: 1,176 packets, last 3 mins ago<br />
+- <strong>Repeater East af7c [STATION_G2]</strong>: 1,176 packets, last 9 mins ago<br />
+- <strong>NHMesh Ultramar Fort Mt Router [RAK4631]</strong>: 1,034 packets, last 9 mins ago<br />
+- <strong>NewBostonNH Base [RAK4631]</strong>: 411 packets, last 1 hour ago  </p>
+<p><strong>Battery Watchlist:</strong>
+- <strong>JMESH Base [RAK4631]</strong>: 44% (monitor)
+- <strong>GBC Base - Wolfeboro [SEEED_SOLAR_NODE]</strong>: 61%
+- <strong>Stoneridge Base [RAK4631]</strong>: 65%</p>
+<p>Everything else sits comfortably above 90% — a strong testament to our region’s solar infrastructure and careful node design.</p>
+<hr />
+<h2><strong>COVERAGE MAP</strong></h2>
+<p><strong>From Peaks to Pockets: Meshing the Northeast</strong></p>
+<p>Yesterday, the network’s reach stretched from <strong>41.71°N to 44.28°N</strong> and <strong>-74.42°W to -70.22°W</strong>, covering <strong>330 positioned nodes</strong> — an impressive geographic arc from the Berkshires to coastal New Hampshire.</p>
+<p>Several high-speed travelers made headlines:
+- <strong>Meshtastic 7284</strong>: 300 km/h at 45.3185,-75.5326 — likely airborne
+- <strong>Awoobeam</strong>: Cruising at 186 km/h through southern NH</p>
+<p>Distance records included:
+- <strong>Northfield NH</strong>: 52.6 km on the move
+- <strong>CONJ-4, Mobile</strong>: 53.3 km in two reports</p>
+<p>Packet hop distribution remained robust:
+- <strong>3–5 hops</strong>: 1,422 packets
+- <strong>0 hops (direct)</strong>: 98 packets
+- <strong>Max</strong>: 6 hops</p>
+<p>Among the most notable long-range signals:
+- <strong>Bravo 1</strong> (-37 dBm, SNR +6.0)
+- <strong>HOONET-WINDSONG</strong> (-51 dBm) — still anchoring the northern backbone</p>
+<p>New hardware spotted: <strong>TRACKER_T1000_E</strong> units are on the rise, pointing to growing mobile deployments.</p>
+<hr />
+<h2><strong>COMMUNITY PAGE</strong></h2>
+<p><strong>From Philosophy to Phantoms: Mesh Personalities Abound</strong></p>
+<p>The mesh is more than nodes — it’s people, personalities, and packets with personality.</p>
+<p>Yesterday brought <strong>30 broadcast messages</strong> and <strong>18 direct exchanges</strong>, a healthy mix of technical banter, friendly check-ins, and even a <strong>Deleuze philosophy lesson</strong> triggered by <strong>HOONET-DUNCAN</strong> late last night. (Yes, the HOONET Bot responded with a French theory crash course. We’re not kidding.)</p>
+<p>Shoutout to the <em>24 newbies</em> who joined — including:
+- <strong>Amber Cricket</strong>
+- <strong>Vanilla Gorilla Solar</strong>
+- <strong>buffalonet</strong>
+- <strong>Jake 2727</strong> (DIY enthusiast with an NRF52 Promicro)
+- <strong>INDICATOR_3</strong> — cryptic but consistent</p>
+<p>Regulars like <strong>HOONET-PRIME</strong>, <strong>NewBostonNH_2</strong>, and <strong>Social</strong> kept the vibe going across New England.</p>
+<p>But there were hiccups:
+- Several nodes reported GPS drift — some even reported <em>negative altitude</em>
+- <strong>HOONET-WINDSONG</strong>'s battery took a nosedive from 95% to 11% overnight
+- <strong>HOONET-MOJO</strong> hit a channel util spike of 54% — yikes!</p>
+<p>The mesh is alive, well, and weird. Keep it up, NH.</p>
+<hr />
+<h2><strong>BY THE NUMBERS</strong></h2>
+<table>
+<thead>
+<tr>
+<th><strong>Metric</strong></th>
+<th><strong>Value</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Total Nodes</td>
+<td>548</td>
+</tr>
+<tr>
+<td>Active (24h)</td>
+<td>279</td>
+</tr>
+<tr>
+<td>Active (1h)</td>
+<td>101</td>
+</tr>
+<tr>
+<td>New Nodes (24h)</td>
+<td>24</td>
+</tr>
+<tr>
+<td>Total Packets (24h)</td>
+<td>5,359</td>
+</tr>
+<tr>
+<td>Avg Packets/Hour</td>
+<td>223</td>
+</tr>
+<tr>
+<td>Channel Utilization</td>
+<td>13.1%</td>
+</tr>
+<tr>
+<td>Airtime</td>
+<td>3.8%</td>
+</tr>
+<tr>
+<td>Avg RSSI</td>
+<td>-93 dBm</td>
+</tr>
+<tr>
+<td>Strongest Signal</td>
+<td>-28 dBm</td>
+</tr>
+<tr>
+<td>Weakest Signal</td>
+<td>-126 dBm</td>
+</tr>
+<tr>
+<td>Hop Distribution</td>
+<td>3–5 hops (majority)</td>
+</tr>
+<tr>
+<td>Coverage (Lat/Lon)</td>
+<td>41.71–44.28°N, -74.42–-70.22°W</td>
+</tr>
+<tr>
+<td>Positioned Nodes</td>
+<td>330</td>
+</tr>
+<tr>
+<td>Battery &lt;50% Nodes</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Most Active Hardware</td>
+<td>RAK4631 (75 units)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2><strong>EDITOR'S NOTE</strong></h2>
+<p>Folks, the New Hampshire Meshtastic mesh is in <em>fine fettle</em>. Yesterday’s 5,359 packets and 24 new nodes show a network not just surviving—but thriving. With strong signal paths, solid infrastructure, and a community that’s equal parts technologist and poet, we’re seeing what a decentralized, solar-powered future could look like.</p>
+<p>Sure, there were a few quirks — a battery hiccup here, a GPS anomaly there — but nothing a little firmware TLC can’t fix. And speaking of fixes, the development team’s been busy churning out improvements:</p>
+<h3><strong>Platform Changes (Last 24 Hours)</strong></h3>
+<ul>
+<li>Added docs for fleet provisioning and telemetry config  </li>
+<li>Documented nRF52 UF2 flashing procedures  </li>
+<li>Improved watchdog checks, including AP bounce recovery  </li>
+</ul>
+<p>These updates help explain why we’re seeing fewer listener crashes and more consistent packet flow. Nice work, devs.</p>
+<p>As we head into St. Patrick’s Day, let’s keep one eye on the traffic, one ear on the RF, and one foot on the ground. The mesh is a living, breathing thing — and it’s only getting stronger.</p>
+<p>— <em>The Editor-in-Chief</em><br />
+<strong>The HOONET Daily Mesh Gazette</strong><br />
+<em>Goffstown, NH</em></p>
+</body>
+</html>
